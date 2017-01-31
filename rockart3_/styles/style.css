@@ -1,0 +1,312 @@
+@charset "windows-1252";
+
+/* CSS Document */
+/* Yleisiä tyyli määrittelyitä sivulle alkaa */
+
+BODY, TABLE, INPUT, TEXTAREA, SELECT, P {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 10pt;
+        color: #000000;
+}
+
+BODY {
+    margin-top: 0px;
+    background-color: #92928F;
+    /*Tällä saadaan ylälaidasta harmaa, jos sivun pohja on muun värinen*/
+    background-image: url("background_image.jpg");
+    background-repeat: repeat-x;
+}
+
+.h3Tyyli {
+    color: #821613;
+    padding-left: 160px;
+}
+
+h3 {
+    color: #821613;
+    padding-left: 0px;
+}
+
+h4 {
+    color: #821613;
+    padding-left: 0px;
+}
+
+/* Yleisiä tyyli määrittelyitä sivulle loppuu */
+/* MUUT MÄÄRITTELYT ALKAA */
+
+p {
+   margin:0;
+   padding: 0;
+}
+
+.pSisalto {
+    width: 680px;
+    padding-left: 160px;
+}
+
+.pSisalto2 {
+    width: 680px;
+    padding-left: 10px;
+}
+
+.pSisalto3 {
+    width: 450px;
+    padding-left: 230px;
+    height: 250px;
+}
+
+.pSisalto4 {
+    width: 480px;
+    padding-left: 5px;
+}
+
+.pSisalto5 {
+    height: 50px;
+}
+
+.pVuosi {
+    padding-left: 160px;
+}
+
+/* MUUT MÄÄRITTELYT LOPPUU */
+/* LOMAKE MÄÄRITTELY ALKAA */
+.tableLomake {
+    width: 680px;
+    padding-left: 160px;
+}
+
+.tableLomake1 {
+    width: 600px;
+    padding-left: 30px;
+}
+
+.tableKuvat1 {
+margin-left:-60px;
+width:812px;
+}
+
+.td1 {
+    width: 155px;
+}
+
+.td2 {
+    width: 520px;
+}
+
+.td3 {
+    width: 300px;
+}
+
+.td4 {
+    vertical-align:top;
+    width: 203px;
+}
+
+.kuva {
+    padding-left: 230px;
+}
+
+
+/* LOMAKE MÄÄRITTELYT LOPPUU */
+/* DIV KOHTAISET MÄÄRITTELYT ALKAA */
+
+.divPage {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divHeader {
+    margin-top: 10px;
+    height: 75px;
+    width: 1000px;
+    background-image: url("logo4.jpg"); /* Logo */
+    background-repeat: no-repeat;
+    background-color: #6E6E6C;
+    text-align: right;
+    position: relative;
+}
+
+.divCenter {
+    margin-top: 0px;
+    height: 250px;
+    background-image: url("rockart_banner1.jpg"); /*banner kuva ennen menua*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FCC14B;
+}
+
+.divTop_sisalto {
+    background-image: url("top3.jpg");
+    background-repeat: no-repeat;
+    height: 44px;
+    margin-top: 0px;
+    width: 1000px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.divSisalto {
+    background-image: url("center3.jpg");
+    background-repeat: repeat-y;
+    background-color: #622523;
+    width: 1000px;
+    
+    margin-top: 0px;
+    height: auto; /* Sivun pituus riippuu sisällöstä */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 0px black;
+}
+
+.divSisalto2 {
+    background-image: url("center3.jpg");
+    background-repeat: repeat-y;
+    background-color: #622523;
+    width: 1000px;
+    margin-top: 0px;
+    height: 210px; /* Sivun pituus riippuu sisällöstä */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 0px black;
+}
+
+.divMainSisalto {
+    height: auto;
+    width: 680px;
+    padding-left: 160px;
+}
+
+.divFooter {
+    background-image: url("bottom3.jpg");
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid 0px black;
+    background-color: #9F201D;
+    position: absolute;
+    color: #FFFFFF;
+}
+
+/* DIV KOHTAISET MÄÄRITTELYT LOPPUU */
+/* MENU TYYLIT ALKAA */
+
+.divMainMenu {
+    background-image: url("background_menu.png");
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 40px;
+    text-align: center;
+    background-color: #9F201D;
+    border: solid 0px black;
+}
+
+.ulMenu {
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 103px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.liMenu {
+    /*background-color: #6B7688;
+    border: solid 1px #3E3E3D;*/
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 0px;
+    height: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    float: left;
+    list-style-type: none;
+}
+
+.divMenu {
+    width: 1000px;
+    height: 30px;
+    text-align: center;
+    background-color: #9F201D;
+}
+
+.ulMenu2 {
+    width: auto;
+    height: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 160px;
+}
+
+.liMenu2 {
+    margin-left: 0px;
+    height: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+
+.apdf {
+    text-decoration: none;
+    color: #821613;
+}
+
+.aMenu {
+text-decoration: none;
+    color: #FFFFFF;
+}
+
+.aMenu:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #821613;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.aTop {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.aTop:hover {
+    text-decoration: underline;
+}
+
+.aUnder {
+    text-decoration: none;
+}
+
+.aUnderP {
+    text-decoration: none;
+    color: #821613;
+}
+
+.aUnder:hover {
+    text-decoration: underline;
+}
+
+.aUnderP:hover {
+    text-decoration: underline;
+}
+
+/* Linkkikuvien ympäriltä reunat pois */
+.imgKuva {
+    border: solid 0px black;
+}
+/* MENU TYYLIT LOPPUU */

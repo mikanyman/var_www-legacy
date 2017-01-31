@@ -1,0 +1,245 @@
+@charset "windows-1252";
+/* CSS Document */
+/* Yleisiä tyyli määrittelyitä sivulle alkaa */
+
+BODY, TABLE, INPUT, TEXTAREA, SELECT, P {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 10pt;
+        color: #000000;
+}
+
+.poistaForm {
+    padding-left: 230px;
+}
+
+BODY {
+    margin-top: 0px;
+    background-color: #868782;
+    /*Tällä saadaan ylälaidasta harmaa, jos sivun pohja on muun värinen*/
+    background-image: url("background_image.jpg");
+    background-repeat: repeat-x;
+}
+
+h2 {
+    text-align: center;
+}
+
+.h3 {
+    color: #5A4C0E;
+    padding-left: 0px;
+}
+
+h3 {
+    color: #5A4C0E;
+    padding-left: 220px;
+}
+
+h4 {
+    color: #82743E;
+    padding-left: 230px;
+}
+
+.divMyynti {
+    padding-left: 230px;
+    width: 700px;
+}
+
+/* Yleisiä tyyli määrittelyitä sivulle loppuu */
+/* MUUT MÄÄRITTELYT ALKAA */
+
+.pSisalto {
+    width: 680px;
+    padding-left: 230px;
+}
+
+.pSisalto2 {
+    width: 680px;
+    padding-left: 10px;
+}
+
+.pSisalto3 {
+    width: 680px;
+    padding-left: 230px;
+    height: 250px;
+}
+
+.pVuosi {
+    padding-left: 220px;
+}
+
+/* MUUT MÄÄRITTELYT LOPPUU */
+/* LOMAKE MÄÄRITTELY ALKAA */
+.tableLomake {
+    width: 680px;
+    padding-left: 220px;
+}
+
+.td1 {
+    width: 155px;
+}
+
+.td2 {
+    width: 520px;
+}
+
+.kuva {
+    padding-left: 230px;
+}
+
+.table01 {
+    padding-left: 230px;
+}
+
+td {
+    border-bottom: 1px solid black;
+}
+
+/* LOMAKE MÄÄRITTELYT LOPPUU */
+/* DIV KOHTAISET MÄÄRITTELYT ALKAA */
+
+.divPage {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid black;
+}
+
+.divHeader {
+    margin-top: 10px;
+    height: 75px;
+    width: 1000px;
+    background-image: url("logo4.jpg"); /* Logo */
+    background-repeat: no-repeat;
+    background-color: #868782;
+    text-align: right;
+    position: relative;
+}
+
+.divCenter {
+    margin-top: 0px;
+    height: 250px;
+    background-image: url("rockart_peura5.jpg"); /*banner kuva ennen menua*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FCC14B;
+}
+
+.divTop_sisalto {
+    /*background-image: url("top3.jpg");
+    background-repeat: no-repeat;*/
+    height: 15px;
+    margin-top: 0px;
+    width: 1000px;
+    background-color: #D6C066;
+    position: relative;
+}
+
+.divSisalto {
+    /*background-image: url("center3.jpg");
+    background-repeat: repeat-y;*/
+    background-color: #D6C066;
+    width: 1000px;
+    margin-top: 0px;
+    height: auto; /* Sivun pituus riippuu sisällöstä */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 0px black;
+}
+
+.divSisalto2 {
+    /*background-image: url("center3.jpg");
+    background-repeat: repeat-y;*/
+    background-color: #D6C066;
+    width: 1000px;
+    margin-top: 0px;
+    height: 250px; /* Sivun pituus riippuu sisällöstä */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 0px black;
+}
+
+.divFooter {
+    /*background-image: url("bottom3.jpg");
+    background-repeat: no-repeat;*/
+    height: 35px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid 0px black;
+    background-color: #D6C066;
+    position: absolute;
+}
+
+/* DIV KOHTAISET MÄÄRITTELYT LOPPUU */
+/* MENU TYYLIT ALKAA */
+
+.divMainMenu {
+    z-index: 1;
+    width: 200px;
+    float: left;
+    text-align: left;
+    background-color: #EBDDA7;
+    border: solid 0px black;
+    position: absolute;
+    height: auto;
+    border: 1px solid black;
+}
+
+.ulMenu {
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.liMenu {
+    margin-left: 0px;
+    height: 15px;
+    padding-left: 5px;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+.liMenu2 {
+    margin-left: 0px;
+    height: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: underline;
+   /* color: #722A01; 
+    color: #9e060a;*/
+    color: #5A4C0E;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.aTop {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.aTop:hover {
+    text-decoration: underline;
+}
+
+.aUnder {
+    text-decoration: none;
+    color: #5A4C0E;
+}
+
+.aUnder:hover {
+    text-decoration: underline;
+}
+/* Linkkikuvien ympäriltä reunat pois */
+.imgKuva {
+    border: solid 0px black;
+}
+/* MENU TYYLIT LOPPUU */
